@@ -1,0 +1,8 @@
+<div id="mymodal" class="large reveal-modal" data-reveal>
+  <% for path in image_parse_url(current_user.gallery.images) %>
+      <a class="th radius insertable-image" href="#" onclick="insertText('![](<%= path %>)')">
+        <img src="<%= path %>">
+      </a>
+  <% end %>
+  <a class="close-reveal-modal">&#215;</a>
+</div>

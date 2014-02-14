@@ -1,0 +1,25 @@
+// Place all the styles related to the chapters controller here.
+// They will automatically be included in application.css.
+// You can use Sass (SCSS) here: http://sass-lang.com/
+
+@import "markitup/skins/markitup/style";
+@import "markitup/sets/markdown/style";
+
+#move-chapter {
+  cursor: move;
+}
+
+.markItUpEditor {
+  width: 675px;
+}
+
+.insertable-image {
+  height: 100px;
+  width: 250px;
+  margin: 20px;
+}
+
+.chapter-head {
+  margin: 20px;
+  color: #008CBA;
+}

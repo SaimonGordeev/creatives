@@ -1,0 +1,23 @@
+<p>
+  <h1><%= @creative.title %></h1>
+</p>
+
+<p>
+  <strong>Description:</strong>
+  <%= @creative.description %>
+</p>
+
+<p>
+  <strong>Created at:</strong>
+  <%= @creative.created_at %>
+</p>
+
+<p>
+  <%= render 'chapters/full' %>
+</p>
+<br><br>
+<p>
+  <%= render 'comments/list' %>
+</p>
+
+

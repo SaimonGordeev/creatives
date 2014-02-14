@@ -1,0 +1,28 @@
+[Mon Feb  3 16:17:15.883 2014] [21652] Child process 21653 has been forked
+[Mon Feb  3 16:17:15.915 2014] [21653] listening on 127.0.0.1:9306
+[Mon Feb  3 16:17:16.050 2014] [21653] accepting connections
+[Mon Feb  3 17:00:02.027 2014] [21653] caught SIGTERM, shutting down
+[Mon Feb  3 17:00:02.225 2014] [21653] shutdown complete
+[Mon Feb  3 17:00:02.227 2014] [21652] Child process 21653 has been finished, exit code 0. Watchdog finishes also. Good bye!
+[Mon Feb  3 17:01:03.197 2014] [23755] Child process 23756 has been forked
+[Mon Feb  3 17:01:03.198 2014] [23756] listening on 127.0.0.1:9306
+[Mon Feb  3 17:01:03.211 2014] [23756] binlog: replaying log /home/saimon/ruby/creatives/tmp/binlog/development/binlog.001
+[Mon Feb  3 17:01:03.211 2014] [23756] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Mon Feb  3 17:01:03.211 2014] [23756] binlog: finished replaying /home/saimon/ruby/creatives/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Mon Feb  3 17:01:03.211 2014] [23756] binlog: finished replaying total 1 in 0.000 sec
+[Mon Feb  3 17:01:03.212 2014] [23756] accepting connections
+[Mon Feb  3 20:13:59.680 2014] [23756] caught SIGTERM, shutting down
+[Mon Feb  3 20:14:00.286 2014] [23756] shutdown complete
+[Fri Feb 14 04:18:11.946 2014] [ 4394] Child process 4395 has been forked
+[Fri Feb 14 04:18:11.953 2014] [ 4395] listening on 127.0.0.1:9306
+[Fri Feb 14 04:18:12.089 2014] [ 4395] binlog: replaying log /home/saimon/ruby/creatives/tmp/binlog/development/binlog.001
+[Fri Feb 14 04:18:12.093 2014] [ 4395] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Fri Feb 14 04:18:12.093 2014] [ 4395] binlog: finished replaying /home/saimon/ruby/creatives/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Fri Feb 14 04:18:12.093 2014] [ 4395] binlog: replaying log /home/saimon/ruby/creatives/tmp/binlog/development/binlog.001
+[Fri Feb 14 04:18:12.093 2014] [ 4395] binlog: replay stats: 0 rows in 0 commits; 0 updates; 0 indexes
+[Fri Feb 14 04:18:12.093 2014] [ 4395] binlog: finished replaying /home/saimon/ruby/creatives/tmp/binlog/development/binlog.001; 0.0 MB in 0.000 sec
+[Fri Feb 14 04:18:12.093 2014] [ 4395] binlog: finished replaying total 2 in 0.004 sec
+[Fri Feb 14 04:18:12.094 2014] [ 4395] accepting connections
+[Fri Feb 14 04:20:15.882 2014] [ 4395] caught SIGTERM, shutting down
+[Fri Feb 14 04:20:19.118 2014] [ 4395] shutdown complete
+[Fri Feb 14 04:20:19.120 2014] [ 4394] Child process 4395 has been finished, exit code 0. Watchdog finishes also. Good bye!

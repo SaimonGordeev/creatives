@@ -1,0 +1,6 @@
+<div id="thumbs" class="gallery">
+  <% for path in image_parse_url(@images) %>
+    <a href=<%= path %> style="background-image:url(<%= path %>);"></a>
+  <% end %>
+</div>
+<%= link_to "Add Image", new_image_path, :class => "button radius" %>

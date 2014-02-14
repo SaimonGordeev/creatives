@@ -1,0 +1,4 @@
+<% @chapters.each do |chapter| %>
+    <strong class="chapter-head"><%= "Chapter : #{chapter.title}" %></strong>
+    <p><%= markdown(chapter.body) %></p>
+<% end %>

@@ -1,0 +1,12 @@
+<% @creatives.each do |creative| %>
+      <h2><%= link_to creative.title, creative %></h2>
+      <p><%= creative.description %></p>
+      <span class="signature"><%= "#{creative.user.email} : #{creative.created_at}" %></span>
+      <hr>
+<% end %>
+
+<div id="tag_cloud">
+  <% tag_cloud Creative.tag_counts, %w{s m l} do |tag, css_class| %>
+      <%= link_to tag.name, tag_path(tag.name), class: css_class %>
+  <% end %>
+</div>

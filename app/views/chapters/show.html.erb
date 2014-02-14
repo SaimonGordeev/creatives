@@ -1,0 +1,12 @@
+<div class="row">
+  <div class="large-6 medium-6 columns">
+    <p>
+      <strong><%= "Chapter : #{@chapter.title}" %></strong>
+      <%= markdown(@chapter.body) %>
+    </p>
+
+    <%= link_to 'Edit', edit_creative_chapter_path(@creative, @chapter), :class => "button radius" %>
+  </div>
+</div>
+
+

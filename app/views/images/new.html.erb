@@ -1,0 +1,6 @@
+<%= form_for @image, :html => {:multipart => true} do |f| %>
+    <p>
+      <%= f.file_field :path%>
+    </p>
+    <p><%= f.submit "Upload", :class => "radius button" %></p>
+<% end %>

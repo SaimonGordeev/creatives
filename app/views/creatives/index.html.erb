@@ -1,0 +1,35 @@
+<h1>Listing creatives</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Title</th>
+      <th>Description</th>
+      <th>User</th>
+      <th>Created at</th>
+      <th></th>
+      <th></th>
+      <th></th>
+      <th>Tags</th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @creatives.each do |creative| %>
+      <tr>
+        <td><%= creative.title %></td>
+        <td><%= creative.description %></td>
+        <td><%= creative.user.email %></td>
+        <td><%= creative.created_at %></td>
+        <td><%= link_to 'Show', creative %></td>
+        <td><%= link_to 'Edit', edit_creative_path(creative) %></td>
+        <td><%= link_to 'Destroy', creative, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+        <td><%= raw creative.tags.map(&:name).map { |t| link_to t, tag_path(t) }.join(', ') %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+<%= link_to 'New Creative', new_creative_path %>
